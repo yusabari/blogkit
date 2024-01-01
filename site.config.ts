@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Yusabari Blog',
+  name: 'yusabari',
   domain: 'yusabari.com',
   author: 'yusabari',
 
