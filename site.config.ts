@@ -56,11 +56,6 @@ export default siteConfig({
     {
       title: '카테고리',
       pageId: '941a84f27e3b4782a57a3d4ef63ec873'
-    },
-    {
-      title: '카테고리',
-      pageId: '941a84f27e3b4782a57a3d4ef63ec873',
-      menuPage: true
     }
   ]
 })
