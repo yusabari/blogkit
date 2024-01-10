@@ -39,5 +39,5 @@ export default function Giscus() {
   //   iframe?.contentWindow?.postMessage({ giscus: { setConfig: { theme } } }, 'https://giscus.app');
   // }, [theme]);
 
-  return <section classname={styles.footer} ref={ref} />;
+  return <section className={styles.footer} ref={ref} />;
 }
