@@ -1,4 +1,5 @@
 // import { useTheme } from 'next-themes';
+import * as React from 'react'
 import { useEffect, useRef } from 'react';
 
 export default function Giscus() {
