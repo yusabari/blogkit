@@ -41,7 +41,7 @@ export default function Giscus() {
 
   return {
     <footer classname={styles.footer}>
-      <section ref={ref}/>
+      <div ref={ref}/>
     </footer>
       };
 }
