@@ -40,8 +40,8 @@ export default function Giscus() {
   // }, [theme]);
 
   return {
-    <div classname={styles.footer}>
+    <footer classname={styles.footer}>
       <section ref={ref}/>
-    </div>
+    </footer>
       };
 }
