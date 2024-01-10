@@ -1,6 +1,7 @@
 // import { useTheme } from 'next-themes';
 import * as React from 'react'
 import { useEffect, useRef } from 'react';
+import styles from './styles.module.css';
 
 export default function Giscus() {
   const ref = useRef<HTMLDivElement>(null);
@@ -38,5 +39,5 @@ export default function Giscus() {
   //   iframe?.contentWindow?.postMessage({ giscus: { setConfig: { theme } } }, 'https://giscus.app');
   // }, [theme]);
 
-  return <section ref={ref} />;
+  return <section classname={styles.footer} ref={ref}/>;
 }
