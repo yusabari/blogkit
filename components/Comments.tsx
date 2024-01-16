@@ -27,7 +27,7 @@ export default function Giscus() {
     scriptElem.setAttribute('data-reactions-enabled', '1');
     scriptElem.setAttribute('data-emit-metadata', '0');
     scriptElem.setAttribute('data-input-position', 'bottom');
-    scriptElem.setAttribute('data-theme', 'noborder_dark');
+    scriptElem.setAttribute('data-theme', 'preferred_color_scheme');
     scriptElem.setAttribute('data-lang', 'ko');
 
     ref.current.appendChild(scriptElem);
